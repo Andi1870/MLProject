@@ -1,12 +1,14 @@
 import pandas as pd
 import random
 
+# Create a class to create a proper Move object
 class Move:
     def __init__(self, name, move_type, power):
         self.name = name
         self.type = move_type
         self.power = power
 
+# Create a class to create a proper Pokemon object
 class Pokemon:
     def __init__(self, name, p_type, hp, attack, speed, moves):
         self.name = name
